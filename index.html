@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon"/>
+    <script src="./js/database.js" defer></script>
+    <script src="./js/script.js" defer></script>
+
+    <title>SHEGLAM - Home</title>
+
+</head>
+<body>
+    <header>
+        <!--Cabeçalho-->
+        <div class="container">
+            <div class="marca">
+            <h1>SHEGLAM</h1>
+            </div>
+
+            <div class="cabecalho">
+                <nav>
+                    <ul class="categorias">
+                        <li class="categoria0"><a href="">Todos</a></li>
+                        <li class="categoria1"><a href="">Paletas</a></li>
+                        <li class="categoria2"><a href="">Batom</a></li>
+                        <li class="categoria3"><a href="">Blush</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="vitrine">
+            <!-- <ul class="container-cards">
+                <li class="card">
+                    <img src="./img/batom.jpg" alt="Matte Lipstick">
+                    <p class="tag">Batom</p>
+                    <h3 class="nameItem">Matte Lipstick</h3>
+                    <p class=" description">Cobertura edificável a cada passada, uma camada para cores discretas e várias...</p>
+                    <p class="value">R$ 27,00</p>
+                    <button id= "produto_1" class="addCart">Adicionar ao carrinho</button>
+                </li>
+    
+                <li class="card">
+                    <img src="./img/paleta-sombra-arcoiris.jpg" alt="Be Bold Palette">
+                    <p class="tag">Paletas</p>
+                    <h3 class="nameItem">Be Bold Palette</h3>
+                    <p class=" description">Essas cores altamente mescláveis foram feitas para combinar e realizar infinitas...</p>
+                    <p class="value">R$ 60,00</p>
+                    <button id= "produto_2" class="addCart">Adicionar ao carrinho</button>
+                </li>
+
+                <li class="card">
+                    <img src="./img/iluminador.jpg" alt="Dune Highlighter">
+                    <p class="tag">Paletas</p>
+                    <h3 class="titulo">Dune Highlighter</h3>
+                    <p class=" description">Dois iluminadores luminosos, ousados e com fixação duradoura fornecem por...</p>
+                    <p class="value">R$ 30,00</p>
+                    <button id= "produto_3" class="addCart">Adicionar ao carrinho</button>
+                </li>  
+                
+                <li class="card">
+                    <img src="./img/blush-cinco.jpg" alt="Bloom Liquid Blush">
+                    <p class="tag">Blush</p>
+                    <h3 class="titulo">Bloom Liquid Blush</h3>
+                    <p class=" description">Sua fórmula de gel-creme e ponta de esponja infundem cor sem esforço em sua pele...</p>
+                    <p class="value">R$ 29,00</p>
+                    <button id= "produto_4" class="addCart">Adicionar ao carrinho</button>
+                </li>    
+
+                <li class="card">
+                    <img src="./img/paleta-sombra-verde.jpg" alt="Venus Goddess Palette">
+                    <p class="tag">Paletas</p>
+                    <h3 class="titulo">Venus Goddess Palette</h3>
+                    <p class=" description">Prepare-se para servir alguns looks principais com nossa paleta de tons de azul e rosa...</p>
+                    <p class="value">R$ 78,00</p>
+                    <button id= "produto_5" class="addCart">Adicionar ao carrinho</button>
+                </li>    
+
+                <li class="card">
+                    <img src="./img/blush.jpg" alt="Shimmer Blush">
+                    <p class="tag">Blush</p>
+                    <h3 class="titulo">Shimmer Blush</h3>
+                    <p class=" description">Nosso luxuoso blush adiciona uma flor de belas cores e ingredientes nutritivos, como...</p>
+                    <p class="value">R$ 27,00</p>
+                    <button id= "produto_6" class="addCart">Adicionar ao carrinho</button>
+                </li>    
+
+            </ul> -->
+        </section>
+
+        <aside class="carrinho">
+            
+            <div class="espaco-buscar">
+                    <input type="text" name="search" placeholder="Digite aqui sua busca..."> 
+                    <button id="btnBusca">Buscar</button>
+                </div>
+
+                <div class="espaco-compras">
+                
+                <div class="espaco-carrinho">
+                    <p>Carrinho de compras</p>
+                </div>
+
+                <div class="carrinho-compras">
+                   
+                    <ul id="container-cards" class="ulCarrinho">
+                        <h2 class="carrinhovazio">Carrinho vázio</h2>
+                        <p class="adcitem">Adicionar itens</p>
+
+                    </ul>
+                </div>        
+                
+            <section class="espaco-soma"> 
+
+                    <div class="somaTexto">
+                        <p class="txtquantidade"></p>
+                        <p class="txtTotal"></p>
+                    </div>
+    
+                    <div class="somaNumero"> 
+                        <p class="quantidade"></p>
+                        <p class="total"></p>
+                    </div>  
+
+            </section>  
+                            
+            <div class="espaco-finalizar-compra">
+                        <button type="submit">Finalizar compra</button>
+            </div>
+  
+            </div>        
+            
+        </aside>
+    </main>
+</body>
+</html>
